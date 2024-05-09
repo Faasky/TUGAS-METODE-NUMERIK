@@ -45,10 +45,10 @@ def crout_solver(A, b):
     return x, L, U
 
 # Contoh penggunaan
-A = [[2, -1, 0],
-     [-1, 2, -1],
-     [0, -1, 2]]
-b = [1, 0, 1]
+A = [[10, -15, 5],
+     [-8, 7, -5],
+     [6, -10, 7]]
+b = [5, 8, 7]
 
 
 solusi, L, U = crout_solver(A, b)
